@@ -1,0 +1,18 @@
+.window-video{
+	border-radius: 25px;
+	border: 2px solid #ca0015;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: center;
+	width: 350px;
+	height: 220px;
+}
+
+.window-title{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.window-video : hover{
+	background: #eee;
+}

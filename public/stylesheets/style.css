@@ -1,0 +1,77 @@
+
+.video-screen button{
+    border: 1px solid #ede;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.video-screen button:hover{
+    background-color:black;
+}
+.control-panel{
+  position:fixed;
+  width:100%;
+}
+.control-panel .controls{
+  padding-left: 660px;
+}
+.part-number{
+  opacity:0.5;
+}
+.window-video{
+	border-radius: 25px;
+	border: 2px solid #ca0015;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: center;
+	width: 290px;
+	min-height: 65px;
+}
+
+.window-title{
+	font-size: 20px;
+	padding-top:10px;
+}
+
+.window-video:hover{
+	background: #eee;
+}
+
+.video-list{
+	display: flex;
+	flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
